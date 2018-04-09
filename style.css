@@ -1,7 +1,8 @@
 @font-face {
-font-family: "Fortnite";
-src: url("BurbankBigCondensed-Black.otf");
+font-family: 'Fortnite';
+src: url('BurbankBigCondensed-Black.otf');
+
 }
 h1, h2 {
-font-family:"Fortnite";
+font-family:Fortnite;
 }
