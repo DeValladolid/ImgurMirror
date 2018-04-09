@@ -4,7 +4,8 @@ src: url('BurbankBigCondensed-Black.otf');
 
 }
 h1, h2 {
-font-family:Fortnite;
+   font-family:Fortnite;
+   color: white;
 }
 body {
    background-color: #2a2a2a;
