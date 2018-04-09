@@ -65,9 +65,9 @@ if (!$_SERVER['QUERY_STRING']) {
         <dd>Si quieres implementar este sistema a tu web, solo tienes que añadir este sencillo codigo PHP</dd>
         <code>
 
-$urls = "http://streamcloud.eu/22m4we2tqoos/GOT.mp4.html"; // No afectara ningun otro enlace excepto streamcloud.
+$urls = "http://imgur.com/xDT6lz7.gif"; // No afectara ningun otro enlace excepto Imgur.
 
-$enlace = $filtro_url = str_replace('streamcloud.eu', 'streamcloud.pro', $urls); // Si quieres implementarlo de forma automatica como iframe modificarlo para que quede asi streamcloud.pro/i.
+$enlace = $filtro_url = str_replace('imgur.com', 'imgur.parse.tk', $urls); 
 
 echo $enlace;
         </code>
