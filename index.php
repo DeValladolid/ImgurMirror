@@ -15,6 +15,8 @@ $con = stream_context_create(array('http'=>array('timeout'=>15)));
 if (!$_SERVER['QUERY_STRING']) {
 ?><!doctype html>
 <html>
+  <header>
+    <title> Imagex Parser </title>
   <body>
     <div>
       <h1>Imgur Proxy</h1>
