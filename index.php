@@ -50,11 +50,12 @@ if (!$_SERVER['QUERY_STRING']) {
 <? } ?>
       <dl>
         <h2>¿Como obtener imágenes?</h2>
-        <dd>Para obtener imágenes, solo tienes que remplazar "i.imgur.com" por "<?=$_SERVER['HTTP_HOST']?>" 
-          dejando la extension del archivo. Por Ejemplo <?=$_SERVER['HTTP_HOST']?>/sample.png<?=$_SERVER['HTTP_HOST']?>/imagehash</dd>
-        <h2>Gallery</h2>
-        <dd><?=$_SERVER['HTTP_HOST']?>/a/albumhash</dd>
-        <dd><?=$_SERVER['HTTP_HOST']?>/gallery/albumhash</dd>
+        <dd>Para obtener imágenes, solo tienes que reemplazar "i.imgur.com" por "<?=$_SERVER['HTTP_HOST']?>" 
+          dejando la extension del archivo. Por Ejemplo <?=$_SERVER['HTTP_HOST']?>/sample.png</dd>
+        <h2>¿Como obtener álbumes?</h2>
+        <dd>Para obtener álbumes, solo tienes que reemplazar "imgur.com" por "<?=$_SERVER['HTTP_HOST']?>" 
+          dejando "a/+ID-del-album". Por ejemplo <?=$_SERVER['HTTP_HOST']?>/a/1234abc .</dd>
+        <dd>Tambien funciona con "gallery" en vez de "a". Por ejemplo <?=$_SERVER['HTTP_HOST']?>/gallery/1234abc</dd>
         <h2>GIFV</h2>
         <dd><?=$_SERVER['HTTP_HOST']?>/hash.gifv</dd>
       </dl>
