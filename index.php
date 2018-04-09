@@ -60,7 +60,7 @@ if (!$_SERVER['QUERY_STRING']) {
         <dd>Para obtener GIF´s, solo tienes que reemplazar "i.imgur.com" por "<?=$_SERVER['HTTP_HOST']?>" 
           dejando la extension del archivo. Por Ejemplo <?=$_SERVER['HTTP_HOST']?>/sample.gif</dd>
         <h2>¿Hay alguna forma mas sencilla?</h2>
-        <dd>Si, hemos creado un <a href="#">formulario</a>, que con poner la extensión del archivo (123abc.gif) crea automaticamente la URL.</dd>
+        <dd>Si, hemos creado un <a href="https://imagex-hosting.ml/">formulario</a>, que con poner la extensión del archivo (123abc.gif) crea automaticamente la URL.</dd>
       </dl>
     </div>
     <footer>
