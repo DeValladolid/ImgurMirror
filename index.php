@@ -43,7 +43,7 @@ if (!$_SERVER['QUERY_STRING']) {
 </script>
   <body>
     <div>
-      <center><h1>Imgur Proxy</h1><center>
+      <center><h1>Imgur Proxy</h1></center>
 <? if ($isbeta) { ?>
       <h2>BETA MODE</h2>
 <? } ?>
