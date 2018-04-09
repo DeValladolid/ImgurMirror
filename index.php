@@ -17,6 +17,8 @@ if (!$_SERVER['QUERY_STRING']) {
 <html>
   <header>
     <title> Imagex Parser </title>
+    
+    <link rel="stylesheet" href="https://imagex-hosting.ml/v5/css/style.css">
   <body>
     <div>
       <h1>Imgur Proxy</h1>
