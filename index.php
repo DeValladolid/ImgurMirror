@@ -49,8 +49,8 @@ if (!$_SERVER['QUERY_STRING']) {
       <h2>BETA MODE</h2>
 <? } ?>
       <dl>
-        <h2>Image</h2>
-        <dd><?=$_SERVER['HTTP_HOST']?>/imagehash</dd>
+        <h2>¿Como obtener imágenes?</h2>
+        <dd>Para obtener imágenes, solo tienes que remplazar "i.imgur.com" por "imgur.parse.tk" dejando la extension del archivo. Por Ejemplo imgur.parse.tk/sample.png<?=$_SERVER['HTTP_HOST']?>/imagehash</dd>
         <h2>Gallery</h2>
         <dd><?=$_SERVER['HTTP_HOST']?>/a/albumhash</dd>
         <dd><?=$_SERVER['HTTP_HOST']?>/gallery/albumhash</dd>
