@@ -49,12 +49,12 @@ if (!$_SERVER['QUERY_STRING']) {
       <h2>BETA MODE</h2>
 <? } ?>
       <dl>
-        <dt>Image</dt>
+        <h2>Image</h2>
         <dd><?=$_SERVER['HTTP_HOST']?>/imagehash</dd>
-        <dt>Gallery</dt>
+        <h2>Gallery</h2>
         <dd><?=$_SERVER['HTTP_HOST']?>/a/albumhash</dd>
         <dd><?=$_SERVER['HTTP_HOST']?>/gallery/albumhash</dd>
-        <dt>GIFV</dt>
+        <h2>GIFV</h2>
         <dd><?=$_SERVER['HTTP_HOST']?>/hash.gifv</dd>
       </dl>
     </div>
