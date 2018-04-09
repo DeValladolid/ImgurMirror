@@ -61,6 +61,17 @@ if (!$_SERVER['QUERY_STRING']) {
           dejando la extension del archivo. Por Ejemplo <?=$_SERVER['HTTP_HOST']?>/sample.gif</dd>
         <h2>¿Hay alguna forma mas sencilla?</h2>
         <dd>Si, hemos creado un <a href="https://imagex-hosting.ml/">formulario</a>, que con poner la extensión del archivo (123abc.gif) crea automaticamente la URL.</dd>
+        <h2>Para WebMasters</h2>
+        <dd>Si quieres implementar este sistema a tu web, solo tienes que añadir este sencillo codigo PHP</dd>
+        <code>
+
+$urls = "http://streamcloud.eu/22m4we2tqoos/GOT.mp4.html"; // No afectara ningun otro enlace excepto streamcloud.
+
+$enlace = $filtro_url = str_replace('streamcloud.eu', 'streamcloud.pro', $urls); // Si quieres implementarlo de forma automatica como iframe modificarlo para que quede asi streamcloud.pro/i.
+
+echo $enlace;
+        </code>
+
       </dl>
     </div>
     <footer>
