@@ -19,6 +19,24 @@ if (!$_SERVER['QUERY_STRING']) {
     <title> Imagex Parser </title>
     
     <link rel="stylesheet" href="https://imagex-hosting.ml/v5/css/style.css">
+    <script type="text/javascript">
+  !function(name,path,ctx){
+    var latest,prev=name!=='Keen'&&window.Keen?window.Keen:false;ctx[name]=ctx[name]||{ready:function(fn){var h=document.getElementsByTagName('head')[0],s=document.createElement('script'),w=window,loaded;s.onload=s.onerror=s.onreadystatechange=function(){if((s.readyState&&!(/^c|loade/.test(s.readyState)))||loaded){return}s.onload=s.onreadystatechange=null;loaded=1;latest=w.Keen;if(prev){w.Keen=prev}else{try{delete w.Keen}catch(e){w.Keen=void 0}}ctx[name]=latest;ctx[name].ready(fn)};s.async=1;s.src=path;h.parentNode.insertBefore(s,h)}}
+  }('KeenAsync','https://d26b395fwzu5fz.cloudfront.net/keen-tracking-1.1.3.min.js',this);
+
+  KeenAsync.ready(function(){
+    // Configure a client instance
+    var client = new KeenAsync({
+      projectId: '5acb35d3c9e77c00017c77f5',
+      writeKey: '333685F881A0067F21F65A230D4ECC1DDB8A52CF66DE2998C32B13583A83B6F0756F44ED3052D2B50A50DC9870067F760DEB3EB659DCE65B61DF145C91AD45E45219F93A55EC246EA140F9ED63271C70704A0A2F0D226528F46B14C4904512CE'
+    });
+
+    // Record an event
+    client.recordEvent('pageviews', {
+      title: document.title
+    });
+  });
+</script>
   <body>
     <div>
       <h1>Imgur Proxy</h1>
