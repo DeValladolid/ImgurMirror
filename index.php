@@ -17,6 +17,9 @@ if (!$_SERVER['QUERY_STRING']) {
 <html>
   <header>
     <title> Imagex Parser </title>
+    <meta name="Description" content="Free tool to skip the block that Imgur makes to certain pages.">
+    <meta name="Keywords" content="imgur, images, gif, nsfw">
+    <meta name="google-site-verification" content="OloRNbLq-PKcfwBWTLkDcWUh1YwrULKfLGxrMMXyiJE" />
     
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
