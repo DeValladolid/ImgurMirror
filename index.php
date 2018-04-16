@@ -5,7 +5,11 @@
 //   */60 * * * * find ~/path/to/imgur/cache -type f -mtime +3 -delete
 // Or turn off caching here...
 
-$urls = "http://imgur.com/xDT6lz7.gif"; $enlace = $filtro_url = str_replace('imgur.com', 'imgur.parse.tk', $urls); echo $enlace;
+$urls = "http://imgur.com/xDT6lz7.gif"; // No afectara ningun otro enlace excepto Imgur.
+
+$enlace = $filtro_url = str_replace('imgur.com', 'imgur.parse.tk', $urls); 
+
+echo $enlace;
 
 $CACHE_FOLDER = './cache/';
 
