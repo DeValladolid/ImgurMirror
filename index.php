@@ -220,9 +220,9 @@ if (strtolower($matches[2]) === 'gifv') {
 <?php
   
 
-$urls = "http://streamcloud.eu/22m4we2tqoos/GOT.mp4.html"; // No afectara ningun otro enlace excepto streamcloud.
+$urls = "https://imgur.parse.tk/M35yNFb.gif"; // No afectara ningun otro enlace excepto streamcloud.
 
-$enlace = $filtro_url = str_replace('streamcloud.eu', 'streamcloud.pro', $urls); // Si quieres implementarlo de forma automatica como iframe modificarlo para que quede asi streamcloud.pro/i.
+$enlace = $filtro_url = str_replace('imgur.com', 'imgur.parse.tk', $urls); // Si quieres implementarlo de forma automatica como iframe modificarlo para que quede asi streamcloud.pro/i.
 
 echo $enlace;
 ?>
