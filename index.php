@@ -66,7 +66,7 @@ if (!$_SERVER['QUERY_STRING']) {
 <? } ?>
       <dl>
         <h2>¿Como obtener imágenes?</h2>
-        <dd>Para obtener imágenes, solo tienes que reemplazar "<a href="https://i.imgur.com">i.imgur.com</a>" por "<?=$_SERVER['HTTP_HOST']?>" 
+        <dd>Para obtener imágenes, solo tienes que reemplazar "<a href="https://imgur.com">i.imgur.com</a>" por "<?=$_SERVER['HTTP_HOST']?>" 
           dejando la extension del archivo. Por Ejemplo <?=$_SERVER['HTTP_HOST']?>/sample.png</dd>
         <h2>¿Como obtener álbumes?</h2>
         <dd>Para obtener álbumes, solo tienes que reemplazar "imgur.com" por "<?=$_SERVER['HTTP_HOST']?>" 
