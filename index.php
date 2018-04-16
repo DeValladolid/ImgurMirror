@@ -17,7 +17,7 @@ if (!$_SERVER['QUERY_STRING']) {
 <html>
   <header>
     <title> Imagex Parser </title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="imgur.ico" type="image/x-icon"/>
     <meta name="Description" content="Free tool to skip the block that Imgur makes to certain pages.">
     <meta name="Keywords" content="imgur, images, gif, nsfw">
     <meta name="google-site-verification" content="OloRNbLq-PKcfwBWTLkDcWUh1YwrULKfLGxrMMXyiJE" />
