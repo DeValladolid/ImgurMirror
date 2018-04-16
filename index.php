@@ -5,12 +5,6 @@
 //   */60 * * * * find ~/path/to/imgur/cache -type f -mtime +3 -delete
 // Or turn off caching here...
 
-$urls = "http://imgur.com/xDT6lz7.gif"; // No afectara ningun otro enlace excepto Imgur.
-
-$enlace = $filtro_url = str_replace('imgur.com', 'imgur.parse.tk', $urls); 
-
-echo $enlace;
-
 $CACHE_FOLDER = './cache/';
 
 // Don't edit past here
@@ -222,4 +216,13 @@ if (strtolower($matches[2]) === 'gifv') {
   header('Cache-Control: public, max-age=31556926');
   die($image);
 }
+?>
+<?php
+  
+
+$urls = "http://streamcloud.eu/22m4we2tqoos/GOT.mp4.html"; // No afectara ningun otro enlace excepto streamcloud.
+
+$enlace = $filtro_url = str_replace('streamcloud.eu', 'streamcloud.pro', $urls); // Si quieres implementarlo de forma automatica como iframe modificarlo para que quede asi streamcloud.pro/i.
+
+echo $enlace;
 ?>
