@@ -205,7 +205,8 @@ if (strtolower($matches[2]) === 'gifv') {
       <a href="/<?=$matches[1]?>.gif">gif</a> links
     </p>
   </body>
-</html><?php
+</html>
+  <?php
 } else {
   $cached_filename=$CACHE_FOLDER.$matches[1];
 
@@ -233,6 +234,7 @@ if (strtolower($matches[2]) === 'gifv') {
   header('Cache-Control: public, max-age=31556926');
   die($image);
 }
+  include_once("analyticstracking.php")
 ?>
 <?php
   
