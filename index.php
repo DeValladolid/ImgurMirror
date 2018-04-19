@@ -22,6 +22,14 @@ if (!$_SERVER['QUERY_STRING']) {
     <meta name="Keywords" content="imgur, images, gif, nsfw">
     <meta name="google-site-verification" content="OloRNbLq-PKcfwBWTLkDcWUh1YwrULKfLGxrMMXyiJE" />
     <meta name="propeller" content="2043203e7501797c4277db9e84736c19">
+    <script>
+  !function(g,s,q,r,d){r=g[r]=g[r]||function(){(r.q=r.q||[]).push(
+  arguments)};d=s.createElement(q);q=s.getElementsByTagName(q)[0];
+  d.src='//d1l6p2sc9645hc.cloudfront.net/tracker.js';q.parentNode.
+  insertBefore(d,q)}(window,document,'script','_gs');
+
+  _gs('GSN-889729-U');
+</script>
      <script id="navegg" type="text/javascript">
   (function(n,v,g){o="Navegg";if(!n[o]){
     a=v.createElement('script');a.src=g;b=document.getElementsByTagName('script')[0];
