@@ -6,6 +6,7 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-71246365-14');
+  gtag('set', {'user_id': 'USER_ID'}); // Establezca el ID de usuario mediante el user_id con el que haya iniciado sesión.
 </script>
 <script>
   !function(g,s,q,r,d){r=g[r]=g[r]||function(){(r.q=r.q||[]).push(
